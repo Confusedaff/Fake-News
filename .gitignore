@@ -1,1 +1,10 @@
 myenv
+*.safetensors
+models/liar_v3/model/
+key
+.env
+frontend/node_modules
+Fake-News-Detection1.zip
+myenv/
+__pycache__/
+*.py[cod]

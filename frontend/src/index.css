@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #10161d;
+  --panel: #1a2129;
+  --panel-2: #212b34;
+  --border: #2b3540;
+  --border-strong: #3d4a56;
+  --text-primary: #edeae0;
+  --text-secondary: #a6a395;
+  --text-muted: #6e6c60;
+  --real: #4fb3a0;
+  --real-dim: #24322f;
+  --fake: #e2604f;
+  --fake-dim: #3a2924;
+  --amber: #e8a83d;
+  --amber-dim: #3a3020;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif { font-family: 'Newsreader', serif; }
+.font-mono { font-family: 'IBM Plex Mono', monospace; }
+.font-body { font-family: 'Space Grotesk', sans-serif; }
