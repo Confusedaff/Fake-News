@@ -1,6 +1,4 @@
 myenv
-*.safetensors
-models/liar_v3/model/
 key
 .env
 frontend/node_modules
